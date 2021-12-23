@@ -18,7 +18,8 @@ function App() {
   };
   return (
     <Card>
-      aws-learning-app is Working !<h2>Current theme: {currentTheme}</h2>
+      aws-learning-app is Working correctly !
+      <h2>Current theme: {currentTheme}</h2>
       <button onClick={toggleDarkMode}>toggle theme</button>
     </Card>
   );
